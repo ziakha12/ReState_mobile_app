@@ -6,6 +6,7 @@ const Tablayout = () => {
   return (
     <Tabs screenOptions={{ 
         headerShown: false,
+        
         tabBarStyle : {
             backgroundColor : '#060606',
             height : 90,
@@ -48,6 +49,14 @@ const Tablayout = () => {
             title: 'Explore',
             tabBarIcon: ({ color, size }) => (
                 <Ionicons name="search" color={color} size={size} />
+            )
+        }}
+         />
+         <Tabs.Screen name="profile" 
+        options={{ 
+            title: 'Profile',
+            tabBarIcon: ({ color, size }) => (
+                <Ionicons name="person" color={color} size={size} />
             )
         }}
          />
