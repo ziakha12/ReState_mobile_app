@@ -11,6 +11,9 @@ export default function App() {
       <Link href="/(tabs)">
         <Text>Tab Screen</Text> 
       </Link>
+      <Link href="/(auth)/SignIn">
+        <Text>Sign In</Text> 
+      </Link>
     </SafeAreaView>
   );
 }
